@@ -1,5 +1,6 @@
 
 
+
 export const studies = [
   {
     title: "Grado Superior en Desarrollo de Aplicaciones Multiplataforma",
@@ -42,7 +43,8 @@ export const IconKeys = {
   nodejs: "nodejs",
   mongodb: "mongodb",
   vite: "vite",
-  visualStudio: "visualStudio"
+  visualStudio: "visualStudio",
+  android: "android"
   // here add more icon keys
 };
 
@@ -104,6 +106,10 @@ export const skills = [
     title: "Visual Studio",
     icon: IconKeys.visualStudio,
   },
+   {
+     title: "Android Studio",
+     icon: IconKeys.android,
+   },
   
  
 ];
@@ -113,6 +119,7 @@ export const projects = [
     img: "../../../img/little_thai.webp",
     title: "Little Thai",
     link: "https://github.com/carlosgjim98/app-little-thai",
+    video:"/vids/little-thai.mp4",
     description: `Aplicación para pedidos, reservas y promociones de los restaurantes Little Thai."En Desarrollo "`,
     technologies: [
       {
@@ -136,9 +143,10 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/guamigo.webp",
+    img: "../../../img/guamigo2.webp",
     title: "Guaumigo",
     link: "https://github.com/carlosgjim98/app-guaumigos",
+    video: "/vids/app-perros.mp4",
     description: `App que conecta dueños de perros con paseadores de confianza en toda España y no cobra comisión a paseadores.  `,
     technologies: [
       {
@@ -165,6 +173,7 @@ export const projects = [
     img: "../../../img/policia.webp",
     title: "App denuncias policia",
     link: "https://github.com/carlosgjim98/app-policia",
+    video: "/vids/policia-local-alcudia.mp4",
     description: `Una app de la Policía Local de Alcúdia para crear denuncias, reportar incidentes y acceder a servicios de seguridad de manera rápida y eficiente.`,
     technologies: [
       {
@@ -185,9 +194,10 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/jdv.webp",
+    img: "../../../img/jdv-1.webp",
     title: "JDV",
     link: "https://store-games-site.netlify.app/",
+    video: "/vids/JDV-app.mp4",
     description: `Una app intuitiva para invertir, gestionar tu cartera y seguir el mercado en tiempo real.`,
     technologies: [
       {
@@ -211,6 +221,7 @@ export const projects = [
     img: "../../../img/citas.webp",
     title: "App de citas",
     link: "https://github.com/carlosgjim98/app-citas",
+    video: "/vids/app-citas.mp4",
     description: `Una app de citas para conectar personas afines, facilitar encuentros y crear conexiones reales...`,
     technologies: [
       {

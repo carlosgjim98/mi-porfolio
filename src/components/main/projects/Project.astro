@@ -1,6 +1,7 @@
 ---
 import { getIconComponent } from "../../../icons/IconAll.astro";
 
+
 type Technology = {
   icon?: string;
 };
@@ -11,9 +12,10 @@ export interface Props {
   description: string;
   technologies?: Technology[];
   link: string;
+  video?: string;
 }
 
-const { technologies, title, img, description, link } = Astro.props;
+const { technologies, title, img, description, link, video } = Astro.props;
 ---
 
 <li class="li-project">
@@ -32,11 +34,48 @@ const { technologies, title, img, description, link } = Astro.props;
     }
   </div>
   <div class="container-link-project">
-    <a href={link} target="_blank">Ver más</a>
+    <details>
+      <summary class="ver-mas">Ver más</summary>
+      <video controls>
+        <source src={video} type="video/mp4" />
+        Tu navegador no soporta la etiqueta de video.
+      </video>
+    </details>
+    
+    <!-- Asegúrate de que el enlace tenga un estilo adecuado -->
+    <a href={link} target="_blank" class="github-link">
+      Github
+    </a>
   </div>
+  
+  
+
+  
 </li>
 
 <style>
+
+summary {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: #01be96;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+
+
+  video {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
   .li-project {
     position: relative;
     list-style: none;
@@ -139,17 +178,21 @@ const { technologies, title, img, description, link } = Astro.props;
   }
   .container-link-project {
     position: relative;
-    width: 100%;
+    display: flex;
+    max-width: 100%;
     padding: 20px 10px;
+   
   }
 
   .container-link-project a {
-    position: relative;
+    position: absolute;
+    margin-left: 120px;
     text-decoration: none;
     padding: 10px 10px;
     background-color: #01be96;
     border-radius: 5px;
     color: #f6f6f9;
     justify-content: space-between;
+    max-height: 40px;
   }
 </style>
