@@ -120,7 +120,7 @@ export const projects = [
     title: "Little Thai",
     link: "https://github.com/carlosgjim98/app-little-thai",
     video:"/vids/little-thai.mp4",
-    description: `Aplicación para pedidos, reservas y promociones de los restaurantes Little Thai."En Desarrollo "`,
+    description: `App para pedidos, reservas y promociones de los restaurantes Little Thai."En Desarrollo "`,
     technologies: [
       {
         icon: IconKeys.typeScript,
@@ -174,7 +174,7 @@ export const projects = [
     title: "App denuncias policia",
     link: "https://github.com/carlosgjim98/app-policia",
     video: "/vids/policia-local-alcudia.mp4",
-    description: `Una app de la Policía Local de Alcúdia para crear denuncias, reportar incidentes y acceder a servicios de seguridad de manera rápida y eficiente.`,
+    description: `App de la Policía Local de Alcúdia para crear denuncias, reportar incidentes y acceder a servicios de seguridad de manera rápida y eficiente.`,
     technologies: [
       {
         icon: IconKeys.typeScript,
@@ -196,9 +196,9 @@ export const projects = [
   {
     img: "../../../img/jdv-1.webp",
     title: "JDV",
-    link: "https://store-games-site.netlify.app/",
+    link: "https://github.com/carlosgjim98/app-inversiones",
     video: "/vids/JDV-app.mp4",
-    description: `Una app intuitiva para invertir, gestionar tu cartera y seguir el mercado en tiempo real.`,
+    description: `App intuitiva para invertir, gestionar tu cartera y seguir el mercado en tiempo real.`,
     technologies: [
       {
         icon: IconKeys.typeScript,
@@ -222,7 +222,7 @@ export const projects = [
     title: "App de citas",
     link: "https://github.com/carlosgjim98/app-citas",
     video: "/vids/app-citas.mp4",
-    description: `Una app de citas para conectar personas afines, facilitar encuentros y crear conexiones reales...`,
+    description: `App de citas para conectar personas afines, facilitar encuentros y crear conexiones reales...`,
     technologies: [
       {
         icon: IconKeys.typeScript,
@@ -245,7 +245,7 @@ export const projects = [
     img: "../../../img/app-musica.webp",
     title: "WoWeLike",
     link: "https://github.com/carlosgjim98/app-clickcomun",
-    description: `Una app de música para crear y compartir playlists, chatear con amigos y descubrir nuevos sonidos juntos.`,
+    description: `App de música para crear y compartir playlists, chatear con amigos y descubrir nuevos sonidos juntos.`,
     technologies: [
       {
         icon: IconKeys.typeScript,
