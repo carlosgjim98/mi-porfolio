@@ -24,6 +24,7 @@ export const IconKeys = {
   ionic: "ionic",
   html: "html",
   css: "css",
+  java: "java",
   javaScript: "javaScript",
   react: "react",
   astro: "astro",
@@ -66,8 +67,8 @@ export const skills = [
     icon: IconKeys.css,
   },
   {
-    title: "JavaScript",
-    icon: IconKeys.javaScript,
+    title: "Java",
+    icon: IconKeys.java,
   },
   {
     title: "Astro",
@@ -78,10 +79,7 @@ export const skills = [
     title: "React Js",
     icon: IconKeys.react,
   },
-  {
-    title: "Next Js",
-    icon: IconKeys.nextjs,
-  },
+ 
   {
     title: "Git",
     icon: IconKeys.git,
@@ -125,9 +123,7 @@ export const projects = [
       {
         icon: IconKeys.typeScript,
       },
-      {
-        icon: IconKeys.javaScript,
-      },
+     
       {
         icon: IconKeys.html,
       },
@@ -152,9 +148,7 @@ export const projects = [
       {
         icon: IconKeys.typeScript,
       },
-      {
-        icon: IconKeys.javaScript,
-      },
+     
       {
         icon: IconKeys.html,
       },
@@ -170,15 +164,16 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/policia.webp",
-    title: "App denuncias policia",
-    link: "https://github.com/carlosgjim98/app-policia",
-    video: "/vids/policia-local-alcudia.mp4",
-    description: `App de la Policía Local de Alcúdia para crear denuncias, reportar incidentes y acceder a servicios de seguridad de manera rápida y eficiente.`,
+    img: "../../../img/valorant.webp",
+    title: "Valorant stats",
+    link: "https://github.com/carlosgjim98/Valo-app",
+    video: "",
+    description: `App que trackea estadísticas de valorant competitivo en tiempo real (aún en desarrollo).  `,
     technologies: [
       {
         icon: IconKeys.typeScript,
       },
+     
       {
         icon: IconKeys.html,
       },
@@ -193,6 +188,7 @@ export const projects = [
       },
     ],
   },
+  
   {
     img: "../../../img/jdv-1.webp",
     title: "JDV",
@@ -246,6 +242,30 @@ export const projects = [
     title: "WoWeLike",
     link: "https://github.com/carlosgjim98/app-clickcomun",
     description: `App de música para crear y compartir playlists, chatear con amigos y descubrir nuevos sonidos juntos.`,
+    technologies: [
+      {
+        icon: IconKeys.typeScript,
+      },
+      {
+        icon: IconKeys.html,
+      },
+      {
+        icon: IconKeys.css,
+      },
+      {
+        icon: IconKeys.ionic
+      },
+      {
+        icon: IconKeys.angular
+      },
+    ],
+  },
+  {
+    img: "../../../img/policia.webp",
+    title: "App denuncias policia",
+    link: "https://github.com/carlosgjim98/app-policia",
+    video: "/vids/policia-local-alcudia.mp4",
+    description: `App de la Policía Local de Alcúdia para crear denuncias, reportar incidentes y acceder a servicios de seguridad de manera rápida y eficiente.`,
     technologies: [
       {
         icon: IconKeys.typeScript,
