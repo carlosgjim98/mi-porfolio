@@ -1,0 +1,43 @@
+---
+
+import Header from "../../components/header/Header.en.astro";
+import "../../style/index.css";
+import Main from "../../components/main/main.en.astro";
+import Footer from "../../components/footer/Footer.en.astro";
+
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta
+      name="description"
+      content="I’m Carlos. I love turning ideas into real, functional and well-designed applications. I simplify complexity and create digital experiences that make a difference. Shall we collaborate? 🚀"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://carlosgonzalez.vercel.app/en/" />
+    <meta property="og:site_name" content="Carlos González Jiménez" />
+    <meta property="og:title" content="Carlos González Jiménez Portfolio" />
+    <meta
+      property="og:image"
+      content="https://carlosgonzalez.vercel.app/img/preview-page.webp"
+    />
+
+    <!-- alternates para SEO -->
+    <link rel="alternate" hreflang="en" href="https://carlosgonzalez.vercel.app/en/" />
+    <link rel="alternate" hreflang="es" href="https://carlosgonzalez.vercel.app/" />
+
+    <script
+      src="https://kit.fontawesome.com/2898a0ac51.js"
+      crossorigin="anonymous"></script>
+    <title>Portfolio | Carlos González Jiménez</title>
+  </head>
+  <body>
+    <Header />
+    <Main />
+    <Footer />
+  </body>
+</html>

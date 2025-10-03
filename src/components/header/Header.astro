@@ -1,4 +1,18 @@
+<nav class="lang-switch">
+  <a href="/" aria-label="Español" title="Español">
+    <img src="/img/Flag_of_Spain.webp" alt="Español" width="30" />
+  </a>
+  <a href="/en/" aria-label="English" title="English">
+    <img src="/img/Flag_of_United_Kingdom.webp" alt="English" width="30" />
+  </a>
+</nav>
+
+
+
+
 <header class="header">
+
+  
   <h1 id="inicio">Porfolio</h1>
   <nav class="nav">
     <ul class="ul-nav">
@@ -59,6 +73,38 @@
     });
   </script>
 </header>
+
+<style>
+
+  .lang-switch {
+  display: flex;
+  gap: 10px;       /* espacio entre banderas */
+  justify-content: flex-end; /* si quieres alinearlas a la derecha */
+  align-items: center;
+  margin: 20px;    /* margen opcional */
+}
+
+.lang-flag {
+  font-size: 24px;       /* tamaño de la bandera */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.lang-flag:hover {
+  transform: scale(1.2); /* efecto al pasar el ratón */
+}
+
+  .lang-switch {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    display: flex;
+    gap: 8px;
+    font-size: 22px;
+    z-index: 100;
+  }
+  .lang-switch a { text-decoration: none; }
+</style>
 
 <style is:global>
   .header {
