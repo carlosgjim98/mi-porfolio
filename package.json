@@ -14,7 +14,7 @@
     "@splidejs/splide": "^4.1.4"
   },
   "engines": {
-    "node": "20.x"
+    "node": "22.x"
   },
   "devDependencies": {
     "astro": "^5.14.1"
